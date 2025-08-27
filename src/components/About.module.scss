@@ -1,0 +1,36 @@
+.container__big {
+  max-width: 1840px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.about {
+  margin-bottom: 180px;
+
+  &__top {
+    text-align: center;
+    color: #fdfdf0;
+    background-image: url("../images/about-bg.png");
+    min-height: 748px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Work Sans";
+    font-size: 250px;
+    font-weight: 600;
+    line-height: 90%;
+    padding-top: 85px;
+  }
+
+  &__text {
+    font-size: 32px;
+    line-height: 1.2;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+  }
+}

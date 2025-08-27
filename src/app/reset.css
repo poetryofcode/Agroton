@@ -45,8 +45,15 @@ select {
   font: inherit;
 }
 
-@media (favors-reduced-motion: reduce) {
+body {
+  font-size: 16px;
+  color: #0e0d0d;
+  line-height: 1.35;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #fdfdf0;
+}
 
+@media (favors-reduced-motion: reduce) {
   *,
   * ::before,
   * ::after {

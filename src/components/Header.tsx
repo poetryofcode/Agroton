@@ -20,7 +20,9 @@ export default function Header() {
               <li className={styles.menu__item}>Contact</li>
             </ul>
           </nav>
-          <a href="tel:+3082226338">Contact us</a>
+          <a className={styles.header__contacts} href="tel:+3082226338">
+            Contact us
+          </a>
         </div>
       </div>
     </header>
