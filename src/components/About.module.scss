@@ -39,4 +39,51 @@
     font-family: "Work Sans", sans-serif;
     font-weight: 500;
   }
+
+  &__achievements {
+    margin-top: -55px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__achievement {
+    display: flex;
+    gap: 25px;
+    max-width: 580px;
+    border-radius: 20px;
+    background-color: #f4f4e7;
+    padding: 14px 10px;
+  }
+  .box {
+    position: relative;
+    &__img {
+      min-width: 214px;
+    }
+    &__btn {
+      position: absolute;
+      top: 7px;
+      right: -5px;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+
+  .content {
+    &__title {
+      padding-top: 10px;
+      font-weight: 500px;
+      padding-bottom: 20px;
+      line-height: 1.5;
+    }
+    &__text {
+      font-size: 14px;
+      font-weight: 300;
+    }
+    &__highlight {
+      color: #f2a531;
+      font-weight: 600;
+    }
+  }
 }

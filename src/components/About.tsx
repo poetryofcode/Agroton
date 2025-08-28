@@ -31,9 +31,12 @@ export default function About() {
                 Agroton is among the leaders in wheat production in Nebraska
               </h4>
               <p className={styles.content__text}>
-                We rank 4th in Nebraska in terms of wheat production, ensuring
-                high quality grain thanks to modern technologies and fertile
-                Nebraska fields.
+                We rank{" "}
+                <span className={styles.content__highlight}>
+                  4th in Nebraska
+                </span>{" "}
+                in terms of wheat production, ensuring high quality grain thanks
+                to modern technologies and fertile Nebraska fields.
               </p>
             </div>
           </Link>
