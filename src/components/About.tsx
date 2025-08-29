@@ -58,6 +58,30 @@ export default function About() {
             </div>
           </Link>
         </div>
+        <dl className={styles.stats}>
+          <div className={styles.stats__item}>
+            <dt className={styles.stats__title}>100%</dt>
+            <dd className={styles.stats__descr}>quality of production</dd>
+          </div>
+          <div className={styles.stats__item}>
+            <dt className={styles.stats__title}>50+</dt>
+            <dd className={styles.stats__descr}>
+              modern agricultural technologies
+            </dd>
+          </div>
+          <div className={styles.stats__item}>
+            <dt className={styles.stats__title}>1.5 mil. tons</dt>
+            <dd className={styles.stats__descr}>
+              products we produce every year.
+            </dd>
+          </div>
+          <div className={styles.stats__item}>
+            <dt className={styles.stats__title}>10+ countries</dt>
+            <dd className={styles.stats__descr}>
+              we export products all over the world.
+            </dd>
+          </div>
+        </dl>
       </div>
     </section>
   );
