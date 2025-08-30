@@ -117,3 +117,43 @@
     opacity: 0.7;
   }
 }
+
+.text {
+  margin-bottom: 40px;
+  font-family: "Work Sans";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.chart {
+  &__box {
+    display: flex;
+    gap: 140px;
+    &_text {
+      font-size: 18px;
+      font-weight: 300;
+      margin-bottom: 45px;
+    }
+  }
+}
+
+.table {
+  &__item {
+    &:first-child {
+      border-top: 1px solid rgba(14, 13, 13, 0.23);
+    }
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(14, 13, 13, 0.23);
+    & dt {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    & dd {
+      font-weight: 300;
+    }
+  }
+}

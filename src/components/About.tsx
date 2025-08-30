@@ -85,44 +85,46 @@ export default function About() {
         </dl>
         <p className={styles.text}>
           Agroton is the largest diversified vertically integrated agricultural
-          producer in Eastern Ukraine. Agroton is a regional leader in the
-          cultivation of agricultural crops, livestock farming
+          producer in Eastern Nebraska. Agroton is a regional leader in the
+          cultivation of agricultural crops, livestock farming.
         </p>
         <div className={styles.chart__box}>
           <Image className={styles.chart__box_img} src={chartImg} alt="image" />
-          <p className={styles.chart__box_text}>
-            Agroton is 30 years of leadership in the agricultural sector. We
-            cultivate 200,000+ hectares of land, supply the market with quality
-            products and export to 10+ countries. Our mission is to develop
-            agriculture, introduce innovations and provide people with natural
-            products.
-          </p>
-          <dl className={styles.table}>
-            <div className={styles.table__item}>
-              <dt>№1 in sunflower production in Ukraine</dt>
-              <dd>48,000 hectares of sown areas.</dd>
-            </div>
-            <div className={styles.table__item}>
-              <dt>№4 in wheat production</dt>
-              <dd>50,000 hectares of fields.</dd>
-            </div>
-            <div className={styles.table__item}>
-              <dt>№1 in grain elevator capacity in Luhansk region</dt>
-              <dd>235,000 tons of storage.</dd>
-            </div>
-            <div className={styles.table__item}>
-              <dt>№1 in poultry production in Luhansk region</dt>
-              <dd>4,000,000 chickens.</dd>
-            </div>
-            <div className={styles.table__item}>
-              <dt>№5 in milk production in Ukraine</dt>
-              <dd>4,500 dairy cattle.</dd>
-            </div>
-            <div className={styles.table__item}>
-              <dt>№2 in bakery production in Luhansk</dt>
-              <dd>7,000 tons of products per year.</dd>
-            </div>
-          </dl>
+          <div className={styles.chart__box_table}>
+            <p className={styles.chart__box_text}>
+              Agroton is 30 years of leadership in the agricultural sector. We
+              cultivate 200,000+ hectares of land, supply the market with
+              quality products and export to 10+ countries. Our mission is to
+              develop agriculture, introduce innovations and provide people with
+              natural products.
+            </p>
+            <dl className={styles.table}>
+              <div className={styles.table__item}>
+                <dt>№1 in sunflower production in Nebraska</dt>
+                <dd>48,000 hectares of sown areas</dd>
+              </div>
+              <div className={styles.table__item}>
+                <dt>№4 in wheat production</dt>
+                <dd>50,000 hectares of fields</dd>
+              </div>
+              <div className={styles.table__item}>
+                <dt>№1 in grain elevator capacity in Nebraska region</dt>
+                <dd>235,000 tons of storage</dd>
+              </div>
+              <div className={styles.table__item}>
+                <dt>№1 in poultry production in Nebraska region</dt>
+                <dd>4,000,000 chickens</dd>
+              </div>
+              <div className={styles.table__item}>
+                <dt>№5 in milk production in Nebraska</dt>
+                <dd>4,500 dairy cattle</dd>
+              </div>
+              <div className={styles.table__item}>
+                <dt>№2 in bakery production in Nebraska</dt>
+                <dd>7,000 tons of products per year</dd>
+              </div>
+            </dl>
+          </div>
         </div>
       </div>
     </section>
