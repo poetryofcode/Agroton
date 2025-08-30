@@ -11,7 +11,7 @@ export default function Products() {
         <div className={styles.products__wrapper}>
           <div className={styles.container}>
             <div className={styles.products__inner}>
-              <h2 className={styles.products__title}>
+              <h2 className={styles.title}>
                 High quality agricultural products
               </h2>
               <div className={styles.products__list}>
@@ -64,10 +64,12 @@ export default function Products() {
                   </button>
                 </Link>
               </div>
-              <Link className={styles.products__link} href={"/"}>
-                See catalog
-                <Image src={link} alt="link" />
-              </Link>
+              <div className={styles.link__wrapper}>
+                <Link className={styles.products__link} href={"/"}>
+                  See catalog
+                  <Image className={styles.link__btn} src={link} alt="link" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
