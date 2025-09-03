@@ -5,6 +5,7 @@ import Products from "@/components/Products";
 import Slogan from "@/components/Slogan";
 import Partners from "@/components/Partners";
 import Blog from "@/components/Blog";
+import Footer from "@/components/Footer";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Partners />
         <Blog />
       </main>
+      <Footer />
     </>
   );
 }
