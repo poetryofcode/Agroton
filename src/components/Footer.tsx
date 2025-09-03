@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./Footer.module.scss";
 import Image from "next/image";
-import logo from "@/images/Logo.png";
+import logoFooter from "@/images/Logo-footer.png";
 
 export default function About() {
   return (
@@ -9,7 +9,7 @@ export default function About() {
       <div className={styles.container}>
         <div className={styles.top}>
           <Link href={"/"}>
-            <Image src={logo} alt="logo" />
+            <Image src={logoFooter} alt="logo" />
           </Link>
           <ul>
             <li>Navigation</li>
@@ -34,7 +34,7 @@ export default function About() {
           </ul>
         </div>
         <ul className={styles.bottom}>
-          <li>2035 Agroton © All rights reserved</li>
+          <li>2025 Agroton © All rights reserved</li>
           <li>Privacy Policy</li>
           <li>Offer contract</li>
         </ul>
