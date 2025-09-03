@@ -13,23 +13,23 @@ export default function About() {
           <div className={styles.container}>
             <h2 className={styles.title}>Recent blog posts</h2>
             <div className={styles.items}>
-              <div className={styles.item}>
+              <div className={styles.item__big}>
                 <Image className={styles.item__img} src={itemImg} alt="img" />
                 <div className={styles.item__info}>
-                  <p className={styles.date}>Agroton • Sep 10th 2025</p>
-                  <h4 className={styles.subtitle}>
-                    Agroton expands sown areas
-                  </h4>
-                  <p className={styles.text}>
-                    This year we increased sown areas by 10%, which will allow
-                    us to increase the production of grain and oilseed crops.
-                  </p>
+                  <p className={styles.date}>Agroton • Sep 10th 2025</p>{" "}
                 </div>
+                <h4 className={styles.subtitle}>Agroton expands sown areas</h4>
+                <p className={styles.text}>
+                  This year we increased sown areas by 10%, which will allow us
+                  to increase the production of grain and oilseed crops.
+                </p>
               </div>
-              <div className={styles.item}>
+              <div className={styles.item__small}>
                 <Image className={styles.item__img} src={blogTwo} alt="img" />
-                <div className={styles.item__info}>
-                  <p className={styles.date}>Agroton • Sep 10th 2025</p>
+                <div className={styles.item__box}>
+                  <div className={styles.item__info}>
+                    <p className={styles.date}>Agroton • Sep 10th 2025</p>{" "}
+                  </div>
                   <h4 className={styles.subtitle}>Export to a new country!</h4>
                   <p className={styles.text}>
                     We entered the market of [country name] and expanded the
@@ -37,10 +37,12 @@ export default function About() {
                   </p>
                 </div>
               </div>
-              <div className={styles.item}>
+              <div className={styles.item__small}>
                 <Image className={styles.item__img} src={blogThree} alt="img" />
-                <div className={styles.item__info}>
-                  <p className={styles.date}>Agroton • Sep 10th 2025</p>
+                <div className={styles.item__box}>
+                  <div className={styles.item__info}>
+                    <p className={styles.date}>Agroton • Sep 10th 2025</p>{" "}
+                  </div>
                   <h4 className={styles.subtitle}>
                     Modern technologies in livestock farming
                   </h4>

@@ -11,4 +11,61 @@
 }
 
 .blog {
+  margin-bottom: 80px;
+  &__wrapper {
+    border-radius: 20px;
+    background: #f4f4e7;
+    padding: 100px 0;
+  }
+}
+
+.title {
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 580px auto;
+  grid-template-rows: 1fr 1fr;
+  gap: 32px 45px;
+}
+
+.item__big {
+  grid-row: 1 / -1;
+}
+
+.item__small {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.date {
+  color: #f2a531;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.item__big .item__img {
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.text {
+  color: #667085;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 400;
 }
