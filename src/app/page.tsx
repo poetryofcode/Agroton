@@ -13,9 +13,9 @@ export default function App() {
       <Header />
       <main>
         <About />
-        <Products />{" "}
+        <Products />
+        <Slogan />{" "}
         {/*
-        <Slogan />
         <Partners />
         <Blog /> */}
       </main>

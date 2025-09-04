@@ -28,3 +28,29 @@
     position: absolute;
   }
 }
+
+@media (max-width: 1500px) {
+  .slogan__title {
+    font-size: 150px;
+  }
+  .slogan__subtitle {
+    font-size: 28px;
+  }
+  .slogan {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .slogan__title {
+    font-size: 70px;
+  }
+  .slogan__subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .slogan__inner {
+    height: 500px;
+  }
+}
