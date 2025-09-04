@@ -13,12 +13,12 @@ export default function App() {
       <Header />
       <main>
         <About />
-        <Products />
+        {/* <Products />
         <Slogan />
         <Partners />
-        <Blog />
+        <Blog /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

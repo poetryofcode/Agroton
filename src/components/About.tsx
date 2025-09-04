@@ -82,12 +82,12 @@ export default function About() {
               we export products all over the world
             </dd>
           </div>
-        </dl>
+        </dl>{" "}
         <p className={styles.text}>
           Agroton is the largest diversified vertically integrated agricultural
           producer in Eastern Nebraska. Agroton is a regional leader in the
           cultivation of agricultural crops, livestock farming.
-        </p>
+        </p>{" "}
         <div className={styles.chart__box}>
           <Image className={styles.chart__box_img} src={chartImg} alt="image" />
           <div className={styles.chart__box_table}>
