@@ -100,3 +100,50 @@
   font-weight: 300;
   border-radius: 10px;
 }
+
+@media (max-width: 1300px) {
+  .inner {
+    gap: 10px;
+  }
+  .contacts {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 950px) {
+  .inner {
+    display: block;
+  }
+  .contacts {
+    width: 100%;
+    text-align: center;
+  }
+  .link {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .stats {
+    display: block;
+    text-align: center;
+  }
+
+  .stats__info {
+    flex-direction: row;
+    align-items: center;
+    img {
+      display: none;
+    }
+  }
+  .stats__img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .info {
+    text-align: center;
+  }
+  .contacts {
+    margin: 0 auto;
+  }
+}
