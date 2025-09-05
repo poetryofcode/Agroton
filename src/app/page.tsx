@@ -18,7 +18,7 @@ export default function App() {
         <Partners />
         <Blog />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

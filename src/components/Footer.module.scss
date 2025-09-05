@@ -33,3 +33,26 @@
   border-top: 1px solid #fff;
   padding-top: 15px;
 }
+
+@media (max-width: 800px) {
+  .top {
+    display: block;
+    text-align: center;
+    ul:nth-child(1) {
+      display: none;
+    }
+    ul:nth-child(even) {
+      display: none;
+    }
+    a {
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+  }
+  .bottom {
+    display: none;
+  }
+  .footer {
+    padding: 50px 0;
+  }
+}
