@@ -15,9 +15,8 @@ export default function App() {
         <About />
         <Products />
         <Slogan />
-        <Partners />{" "}
-        {/*
-        <Blog /> */}
+        <Partners />
+        <Blog />
       </main>
       {/* <Footer /> */}
     </>

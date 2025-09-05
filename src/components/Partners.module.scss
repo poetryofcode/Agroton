@@ -121,6 +121,9 @@
   .link {
     margin-bottom: 50px;
   }
+  .partners {
+    margin-bottom: 300px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -145,5 +148,11 @@
   }
   .contacts {
     margin: 0 auto;
+  }
+  .partners {
+    margin-bottom: 590px;
+  }
+  .info {
+    display: none;
   }
 }
